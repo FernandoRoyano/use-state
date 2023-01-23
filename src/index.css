@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+button,
+select {
+  padding: 3px 10px;
+  min-width: 50px;
+  margin: 5px;
+}
+
+.dark {
+  background: #282c34;
+  color: white;
+}
+
+.light {
+  color: #282c34;
+  background: white;
+}
+
+.WeatherWidget.dark {
+  background: #2a3c60;
+  color: white;
+}
